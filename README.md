@@ -23,6 +23,10 @@ npm run build
 
 源目录可直接静态托管，构建也会复制运行文件到 `dist/`。路径全部相对，兼容 GitHub Pages 仓库子路径。播放不依赖浏览器 speechSynthesis 或外部 API。
 
+运行 `npm run export` 会生成自包含的 `dist/gwen-short.html`，可以下载后直接用浏览器打开，无需服务器与网络。
+
+GitHub Pages：仓库 Settings → Pages → Source 选择 Deploy from a branch，Branch 选择 `main`，目录选择 `/ (root)`，保存即可。网页入口为 `https://ssttmkkw-hue.github.io/duanju-11-20-1-gwen/`。
+
 ## 演出结构
 
 | 时间 | 镜头 | 内容 |
