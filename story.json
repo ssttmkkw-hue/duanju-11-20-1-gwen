@@ -1,0 +1,17 @@
+{
+  "title": "格温申请 Bin 冠军皮肤", "duration": 20,
+  "shots": [
+    {"start": 0, "end": 5, "name": "冠军皮肤，选我好吗", "description": "近景 · 电竞休息室", "position": "0% 0%"},
+    {"start": 5, "end": 12, "name": "我们的默契，百分之百", "description": "中景 · 格温转圈", "position": "100% 0%"},
+    {"start": 12, "end": 17, "name": "一点点撒娇战术", "description": "特写 · 轻拽衣袖", "position": "0% 100%"},
+    {"start": 17, "end": 20, "name": "这一票，投给格温", "description": "近景 · 剪刀比心", "position": "100% 100%"}
+  ],
+  "lines": [
+    {"start": 0.55, "end": 4.6, "actor": "gwen", "name": "格温", "text": "Bin 哥，冠军皮肤选我好不好？", "spoken": "彬哥，冠军皮肤选我好不好？"},
+    {"start": 5.15, "end": 10.35, "actor": "gwen", "name": "格温", "text": "咱俩 S16 百分百胜率，决赛是我帮你打穿对手的！", "spoken": "咱俩，艾斯十六百分百胜率，决赛是我帮你打穿对手的！"},
+    {"start": 10.5, "end": 11.9, "actor": "bin", "name": "Bin", "text": "确实很合适。", "spoken": "确实很合适。"},
+    {"start": 12.1, "end": 15.35, "actor": "gwen", "name": "格温", "text": "不选我的话，下次对线我不帮你单杀咯。", "spoken": "不选我的话，下次对线我不帮你单杀咯。"},
+    {"start": 15.5, "end": 16.9, "actor": "bin", "name": "Bin", "text": "我还在考虑呢。", "spoken": "我还在考虑呢。"},
+    {"start": 17.1, "end": 19.6, "actor": "gwen", "name": "格温", "text": "那一定要好好考虑我呀。", "spoken": "那一定要好好考虑我呀。"}
+  ]
+}
