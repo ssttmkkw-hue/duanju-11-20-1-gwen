@@ -1,37 +1,43 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0c111b">
-  <meta name="description" content="格温申请 Bin 冠军皮肤，一部 20 秒的原创同人动态漫画。">
-  <title>格温申请 Bin 冠军皮肤 · 剪一段心动</title>
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='50' font-size='50'%3E✂%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0e1420"><meta name="description" content="格温分层演员试演：独立头部、手臂、头发和剪刀，用同一套素材演出两段台词。">
+<title>格温 · 角色试演室</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='50' font-size='50'%3E✂%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="actor-lab.css">
 </head>
 <body>
-  <header class="masthead"><a class="brand" href="./"><span class="brand-icon">✂</span><span>剪一段心动<small>A LITTLE MAGIC, A LITTLE HEART</small></span></a><span class="edition">峡谷番外放映室 <i></i> VOL. 01</span></header>
-  <main>
-    <section class="intro"><div><div class="eyebrow">BIN × GWEN · 同人短剧</div><h1>冠军皮肤，<em>选我好吗？</em></h1><p>决赛之后，格温还有一场属于自己的「决胜局」。</p></div><div class="film-spec"><strong>20<span>秒</span></strong><span>一场心动提案<br>四个小小镜头</span></div></section>
-    <section class="cinema" aria-label="短剧播放器">
-      <div class="screen" id="screen" data-shot="0">
-        <div class="picture" id="picture" role="img" aria-label="Bin 坐在电竞椅上，格温带着剪刀走近"></div>
-        <div class="atmosphere" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
-        <div class="shade"></div>
-        <div class="frame-top"><span class="film-label">剪一段心动</span><span class="fiction">同人虚构 · 合成配音</span></div>
-        <div class="shot-tag" id="shot-tag">电竞休息室 · 冠军之夜</div>
-        <div class="magic-heart" aria-hidden="true">♡</div>
-        <div class="end-title" id="end-title"><small>THE CHOICE IS YOURS</small><strong>格温申请 Bin 冠军皮肤</strong><span>这一票，你投给谁？</span></div>
-        <div class="subtitle" id="subtitle" aria-live="off"><span id="speaker"></span><p id="dialogue"></p></div>
-        <button class="start-card" id="start" aria-label="播放 20 秒短剧"><span class="play-disc">▶</span><strong>一场心动，即将开演</strong><small>点击播放 · 普通话配音</small></button>
-        <button class="screen-toggle" id="screen-toggle" aria-label="暂停短剧" hidden></button>
-      </div>
-      <div class="transport"><div class="progress-wrap"><label class="sr-only" for="progress">播放进度</label><input id="progress" type="range" min="0" max="20" step="0.01" value="0"><div class="chapter-marks" aria-hidden="true"><i></i><i></i><i></i></div></div><div class="controls"><div class="controls-left"><button id="play" class="primary-control" aria-label="播放短剧">▶ <span>播放短剧</span></button><button id="replay" title="从头重播" aria-label="从头重播">↺</button><span class="time"><span id="time">00:00</span><span> / 00:20</span></span></div><div class="controls-right"><span id="status" role="status">准备开演</span><button id="mute" aria-label="静音" title="静音">声音开</button><button id="captions" aria-label="关闭字幕" aria-pressed="true" title="字幕">字幕</button><button id="fullscreen" aria-label="全屏播放" title="全屏播放">⛶</button></div></div></div>
-      <div class="error" id="error" role="alert" hidden></div>
-    </section>
-    <section class="below"><div class="storyboard"><div class="section-heading"><h2>四幕，一次心动</h2><span>点击镜头，跳转剧情</span></div><div class="chapters" id="chapters"></div></div><aside class="note"><span class="note-mark">✧</span><div><h2>她的针线，只偏爱你的峡谷。</h2><p>一把剪刀，一点勇气。<br>这次，换格温主动争取。</p></div></aside></section>
-    <details class="script"><summary>展开完整剧本 <span>6 句对白 · 普通话</span></summary><div id="script-lines"></div></details>
-  </main>
-  <footer><span>剪一段心动 <b>·</b> BIN & GWEN</span><p>粉丝创作，剧情及 S16 战绩设定均为虚构；非选手真实言论，非官方作品。普通合成音色，无真人声音克隆。</p><a href="https://github.com/ssttmkkw-hue/duanju-11-20-1-gwen">项目与素材说明</a></footer>
-  <audio id="audio" preload="auto"></audio>
-  <script type="module" src="app.js"></script>
-</body></html>
+<header class="masthead"><a class="brand" href="./"><span class="brand-icon">✂</span><span>剪一段心动<small>CHARACTER PERFORMANCE STUDIO</small></span></a><nav><span>角色试演室</span><a href="comic.html">查看分镜初版</a></nav></header>
+<main>
+<section class="intro"><div><div class="eyebrow">GWEN · ACTOR STUDY 01</div><h1>同一个格温，<em>演一点不一样。</em></h1><p>让表情、动作和台词，成为可以反复组合的演出。</p></div><span class="study-label">一个演员 · 一个场景<br>两段台词 · 同一套素材</span></section>
+<div class="workspace">
+<section class="stage-panel" aria-label="格温试演舞台">
+<div class="actor-stage" id="actor-stage">
+<div class="scene-backdrop"></div><div class="scene-light"></div><div id="actor-mount"></div>
+<div class="stage-top"><span class="stage-name">格温 <small>GWEN</small></span><span class="fiction">同人角色 · 普通合成配音</span></div>
+<span class="stage-location">电竞休息室 / 固定机位</span>
+<div class="stage-bottom"><span id="stage-status" role="status">正在准备演员…</span><span id="mode-label">自动演出</span></div>
+<div class="caption" id="caption"><span>格温</span><p id="caption-text"></p></div>
+<div class="loading" id="loading"><span class="loading-mark">✧</span><p>正在准备演员与配音</p></div>
+</div>
+<div class="transport"><label class="sr-only" for="scrub">演出进度</label><input id="scrub" type="range" min="0" max="6.2" step="0.01" value="0" disabled><div class="transport-row"><div><button id="play-take" class="play-button" disabled>▶ <span>演出这段</span></button><button id="replay" aria-label="从头重演" title="从头重演" disabled>↺</button><span class="clock" id="clock">00:00 / 00:06</span></div><div><button id="mute" aria-label="静音" title="静音">声音开</button><button id="captions" aria-pressed="true" aria-label="关闭字幕">字幕</button><button id="fullscreen" aria-label="全屏舞台" title="全屏舞台">⛶</button></div></div></div>
+<p id="error" class="error" role="alert" hidden></p>
+</section>
+<aside class="director-panel">
+<div class="panel-heading"><span class="eyebrow">DIRECTOR'S NOTES</span><h2>今天，让她说什么？</h2><p>选一段台词，看看她如何演绎。</p></div>
+<div id="takes" class="takes" role="group" aria-label="选择演出台词"></div>
+<div class="divider"></div>
+<div class="actions-heading"><h2>亲手导演一个动作</h2><p>也可以在说话时，叠加动作。</p></div>
+<div class="actions" id="actions"><button data-action="speak" disabled><span aria-hidden="true">◌</span><strong>说话</strong></button><button data-action="blink" disabled><span aria-hidden="true">◡</span><strong>眨眼</strong></button><button data-action="tilt" disabled><span aria-hidden="true">♧</span><strong>歪头</strong></button><button data-action="raise" disabled><span aria-hidden="true">✂</span><strong>抬剪刀</strong></button></div>
+<p class="action-hint" id="action-hint">四种表现，可以独立触发。</p>
+</aside>
+</div>
+<section class="workbench"><div class="workbench-copy"><span class="small-spark">✧</span><div><h2>看看她是怎么组成的</h2><p>头部、头发、身体、手臂与剪刀，分别运动，再组合成一个演员。</p></div></div><div class="view-options"><label><input id="joints" type="checkbox"><span>显示关节</span></label><label><input id="exploded" type="checkbox"><span>展开部件</span></label></div></section>
+<section class="reuse-note"><span>这次换台词，下次换故事。</span><p>两段演出共用 10 个绘制部件、程序口型和同一张背景。切换台词只更换音轨与动作编排。</p><a href="assets/gwen/atlas.png" target="_blank" rel="noopener">查看原始部件图集</a></section>
+</main>
+<footer><span>剪一段心动 · 演员小样</span><p>格温为《英雄联盟》角色。本作是同人虚构演出，合成配音未克隆真人或官方演员声音。口型采用音量与拼音近似驱动。</p><a href="https://github.com/ssttmkkw-hue/duanju-11-20-1-gwen">代码与素材说明</a></footer>
+<audio id="voice" preload="auto"></audio>
+<script type="module" src="actor-lab.js"></script>
+</body>
+</html>

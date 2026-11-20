@@ -1,0 +1,23 @@
+{
+  "atlas": "assets/gwen/atlas.png",
+  "size": [1254, 1254],
+  "parts": {
+    "head": {"box": [26, 47, 389, 301], "anchor": [220, 340], "scale": 0.86},
+    "body": {"box": [460, 19, 334, 383], "anchor": [627, 19], "scale": 1.12},
+    "hairLeft": {"box": [852, 20, 180, 390], "anchor": [950, 65], "scale": 0.85},
+    "hairRight": {"box": [1070, 20, 178, 390], "anchor": [1135, 65], "scale": 0.85},
+    "upperLeft": {"box": [137, 433, 168, 377], "anchor": [218, 457], "scale": 0.6},
+    "forearmLeft": {"box": [581, 432, 88, 385], "anchor": [625, 459], "scale": 0.48},
+    "upperRight": {"box": [950, 432, 170, 378], "anchor": [1031, 456], "scale": 0.6},
+    "forearmRight": {"box": [170, 851, 86, 383], "anchor": [209, 882], "scale": 0.48},
+    "scissors": {"box": [518, 847, 219, 395], "anchor": [574, 1185], "scale": 0.74},
+    "closedEyes": {"box": [967, 1068, 155, 43], "anchor": [1037, 1180], "scale": 0.86}
+  },
+  "joints": {
+    "neck": [500, 326], "body": [500, 320],
+    "shoulderLeft": [350, 376], "shoulderRight": [650, 376],
+    "elbowLeft": [-9, 196.8], "elbowRight": [12.6, 197.4],
+    "gripRight": [4.32, 149.28],
+    "mouth": [8.6, -25.8]
+  }
+}

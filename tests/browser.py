@@ -10,7 +10,7 @@ async def main():
   page=await browser.new_page(viewport={'width':1440,'height':1080},device_scale_factor=1)
   errors=[]
   page.on('pageerror',lambda e:errors.append(str(e)))
-  await page.goto(BASE_URL + '?capture')
+  await page.goto(BASE_URL + 'comic.html?capture')
   await page.wait_for_function('window.__drama && document.querySelectorAll(".chapter").length===4')
   await page.screenshot(path=str(OUTPUT/'gwen-desktop.png'),full_page=True)
   await page.get_by_role('button',name='播放 20 秒短剧',exact=True).click()
